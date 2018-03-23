@@ -12,7 +12,7 @@ RUN apt-get update
 RUN apt-get -y upgrade
 
 # Basic Requirements
-RUN apt-get -y install mysql-server mysql-client nginx php-fpm php-mysql php-apcu php-apcu-bc pwgen python-setuptools curl git unzip
+RUN apt-get -y install mysql-server mysql-client nginx php-fpm php-mysql php-apcu pwgen python-setuptools curl git unzip
 
 # Wordpress Requirements
 RUN apt-get -y install php-xml php-mbstring php-bcmath php-zip php-pdo-mysql php-curl php-gd php-intl php-pear php-imagick php-imap php-mcrypt php-memcache php-apcu php-pspell php-recode php-tidy php-xmlrpc
