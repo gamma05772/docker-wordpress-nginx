@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM debian:latest
 MAINTAINER Eugene Ware <eugene@noblesamurai.com>
 
 # Keep upstart from complaining
